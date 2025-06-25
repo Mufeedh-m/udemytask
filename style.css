@@ -212,19 +212,17 @@ body {
 .popular___desc {
     margin-left: 10px;
 }
-    .popular__container {
+
+.popular__container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10px;
-    margin-left:20px;
 }
-    
-
 
 .end-card img {
-    height: 150px;
-    width: 220px;
+    height:50%;
+    width:100%;
     margin-left: 10px;
 }
 
@@ -234,7 +232,6 @@ body {
 }
 
 .end-card {
-    width:200px;
     flex-basis: 20%;
     flex-grow: 1;
     margin: 5px;
@@ -300,11 +297,6 @@ p {
     body {
         font-size: 10px;
     }
-
-
-
-
-
 }
 
 @media screen and (max-width:600px) {
@@ -317,7 +309,8 @@ p {
     .course-card {
         flex-basis: 40%;
     }
-    .end-card{
+
+    .end-card {
         flex-basis: 40%;
     }
 
