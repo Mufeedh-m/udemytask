@@ -47,6 +47,10 @@ body{
     gap:10px;
     align-items:center;
 }
+.menu__bar{
+    display: none;
+    
+}
 .mylearning{
     position: relative;
     cursor: pointer;
@@ -185,22 +189,21 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    flex-basis:50%;
-
-
 }
 .end-card img{
     height:150px;
     width:270px;
-    margin-left: 10px;
+    margin-left:10px;
 }
 .end-card img:hover{
     transform:scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .end-card{
-    margin-top:20px;
-    
+    width: 200px;
+    margin:10px;
+    flex-grow: 1;
+    flex-basis:25%;
 }
 .popular{
     margin-left:10px;
@@ -239,8 +242,21 @@ body{
     margin-top: 25px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
+@media screen and (max-width:800px) {
+    body{
+        font-size:10px;
+    }
+}
+@media screen and (max-width:600px) {
+    .end-card{
+        flex-basis:40%;
+    }
+    .navbar__s2{
+        display: none;
+    }
+}
 
 
 
