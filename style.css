@@ -203,7 +203,7 @@ body{
     width: 200px;
     margin:10px;
     flex-grow: 1;
-    flex-basis:25%;
+    flex-basis:20%;
 }
 .popular{
     margin-left:10px;
